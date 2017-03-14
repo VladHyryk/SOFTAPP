@@ -1,0 +1,41 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 1px 70px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black, 1px 1px 2em #83e0df;
+}
+
+.gwt-HTML {
+    background-color: rgb(252, 248, 252);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.gwt-Button {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    width: 100%;
+}

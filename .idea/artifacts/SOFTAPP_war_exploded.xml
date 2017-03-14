@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SOFTAPP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOFTAPP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SOFTAPP/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SOFTAPP" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="SOFTAPP/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
